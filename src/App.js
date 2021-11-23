@@ -1,7 +1,10 @@
 import logo from './Alex.jpg';
 import './App.css';
 
+
+//Step 1: Define a component
 function App() {
+  //Step 2: Return some JSX
   return (
     <div className="App">
       <header className="App-header">
