@@ -47,7 +47,7 @@ export default class NavbarComp extends Component {
           <Route path="/contact">
             <Contact />
           </Route>
-          <Route path="/">
+          <Route path="/home">
             <Home />
           </Route>
         </Switch>
