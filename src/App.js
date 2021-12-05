@@ -1,13 +1,38 @@
-import logo from './nuke.gif';
-import './App.css';
 
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavbarComp from './components/NavbarComp';
 
 //Step 1: Define a component
 function App() {
   //Step 2: Return some JSX
   return (
+
+
     <div className="App">
-      <header className="App-header">
+      <NavbarComp/>
+      
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*<div className="App">
+    <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           My name is Alex and I'm going to master React!
@@ -21,7 +46,7 @@ function App() {
           Check Me Out!
         </a>
       </header>
-    </div>
+    </div>*/
   );
 }
 
