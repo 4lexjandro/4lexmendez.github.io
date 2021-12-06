@@ -2,6 +2,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarComp from './components/NavbarComp';
 
+
 //Step 1: Define a component
 function App() {
   //Step 2: Return some JSX
@@ -10,6 +11,7 @@ function App() {
 
     <div className="App">
       <NavbarComp/>
+      
       
 
 
