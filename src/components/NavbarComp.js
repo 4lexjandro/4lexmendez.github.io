@@ -10,6 +10,32 @@ import About from "./About";
 import Home from "./Home";
 import Contact from "./Contact";
 
+/*
+import Highlights from "./Highlights";
+import Projects from "./Projects";
+*/
+
+
+
+
+/*
+
+
+Add this for highlights and projects 
+
+
+
+
+<Route path="/highlights">
+            <Highlights />
+          </Route>
+
+          <Route path="/projects">
+            <Projects />
+          </Route>
+          
+          
+          */
 
 
 export default class NavbarComp extends Component {
@@ -27,13 +53,8 @@ export default class NavbarComp extends Component {
         <Nav.Link as={Link} to={"/about"}>About</Nav.Link>
         <Nav.Link as={Link} to={"/contact"}>Contact</Nav.Link>
         <Nav.Link as={Link} to={"/projects"}>Projects</Nav.Link>
-        <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-          <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-          <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-          <NavDropdown.Divider />
-          <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-        </NavDropdown>
+        <Nav.Link as={Link} to={"/highlights"}>Highlights</Nav.Link>
+        
       </Nav>
     </Navbar.Collapse>
   </>

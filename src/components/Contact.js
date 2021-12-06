@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
-import {useForm} from "react-hook-form";
+
 
 export default class Contact extends Component {
 
 
 
-   /* const {register, handleSubmit, errors} = useForm(); 
-    const onSubmit = data =>{console.log(data)};*/
-
-    onButtonClickHandler = () => {
+    onButtonClickHandler = () => 
+    {
         window.alert("Message received! I'll get back to you when I can! 😁")
       };
 
