@@ -1,68 +1,57 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarComp from './components/NavbarComp';
-import logo from './components/Alex.jpg';
+import { useSpring, animated, useTransition } from 'react-spring';
 
 
-//Step 1: Define a component
+
+
+
+
+
+
 function App() {
-  //Step 2: Return some JSX
+
+  const style1 = useSpring({
+    from: {opacity: 0, marginTop: -100},
+    to: { opacity: 1, marginTop: 0},
+    config: {duration: 3000 }
+})
+
+const style2 = useSpring({
+  from: { marginLeft: 0},
+  to: { marginLeft: 900 },
+  config: {duration: 3000 }
+})
+
+
+
+
+
   return (
+<div className="App">
+  
 
+      <animated.div style={style1}>
+        <div className="topDiv">
+        <small><NavbarComp/></small>
+          <animated.div style={style2}>
 
-    <div className="App">
-      <NavbarComp/>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          My name is Alex and I'm going to master React!
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/4lexmendez"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Check Me Out!
-        </a>
-      </header>
+            
+            
+
+            <h1>Welcome</h1>
+            </animated.div>
+        </div>
+       </animated.div>
+                               
       
-      
-
-
 
     </div>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-    /*<div className="App">
-    <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          My name is Alex and I'm going to master React!
-        </p>
-        <a
-          className="App-link"
-          href="https://github.com/4lexmendez"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Check Me Out!
-        </a>
-      </header>
-    </div>*/
   );
 }
 
