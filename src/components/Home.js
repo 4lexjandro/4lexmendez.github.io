@@ -14,6 +14,7 @@ export default class Home extends Component {
                 
                 <h1>Alexjandro Mendoza</h1>
                 <img src={Alex} alt="Alex image" height={350} width={350}/>
+                <p>Still developing and improving this site</p>
 
 
             </div>

@@ -9,11 +9,9 @@ import {
 import About from "./About";
 import Home from "./Home";
 import Contact from "./Contact";
-
-/*
 import Highlights from "./Highlights";
 import Projects from "./Projects";
-*/
+
 
 
 
@@ -71,6 +69,12 @@ export default class NavbarComp extends Component {
           </Route>
           <Route path="/home">
             <Home />
+          </Route>
+          <Route path="/highlights">
+            <Highlights />
+          </Route>
+          <Route path="/projects">
+            <Projects />
           </Route>
         </Switch>
 

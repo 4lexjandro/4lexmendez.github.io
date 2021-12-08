@@ -1,14 +1,9 @@
-import './App.css';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarComp from './components/NavbarComp';
 import { useSpring, animated, useTransition } from 'react-spring';
 import { useState } from 'react';
-
-
-
-
-
-
+import './App.css';
 
 
 function App() {
@@ -24,7 +19,8 @@ function App() {
   const style2 = useSpring({
   from: { marginLeft: 0},
   to: { marginLeft: 900 },
-  config: {duration: 3000 }
+  delay: 1500,
+  config: { duration: 3000 }
 })
 
   const transition = useTransition(slideIn, {
@@ -38,36 +34,18 @@ const moveMe = () => {
 
 }
 
-
-
   return (
 <div className="App">
       <animated.div style={style1}>
         <div className="topDiv">
-        <small><NavbarComp/></small>
+        <small> <NavbarComp /> </small>
           <animated.div style={style2}>
-
             <h1>Welcome</h1>
             </animated.div>
         </div>
        </animated.div>
-       <button onClick={() => moveMe()}>Move Me</button>
-       <div>
-         {transition((style, item) => 
-           item ?
-           <animated.div style={style}>
-             <div className="div2">Hey hey</div>
-           </animated.div>
-           : ''
-      )}
-       </div>
-                               
-      
-
+                         
     </div>
-
-
-
 
   );
 }
