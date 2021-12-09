@@ -1,14 +1,11 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarComp from './components/NavbarComp';
-import { useSpring, animated, useTransition } from 'react-spring';
-import { useState } from 'react';
+import { useSpring, animated} from 'react-spring';
 import './App.css';
 
 
 function App() {
-
-  const [slideIn, setSlideIn] = useState(false)
 
   const style1 = useSpring({
     from: {opacity: 0, marginTop: -100},
@@ -23,16 +20,7 @@ function App() {
   config: { duration: 3000 }
 })
 
-  const transition = useTransition(slideIn, {
-  from: { x: -200 , y: 0},
-  enter: { x: 0 , y: 0 },
-  leave: {x: -200 , y: 0 }
-})
-
-const moveMe = () => {
-  setSlideIn(!slideIn)
-
-}
+  
 
   return (
 <div className="App">

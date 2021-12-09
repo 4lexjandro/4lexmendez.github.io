@@ -1,4 +1,11 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import myfile from './myfile.pdf';
+
+
+
+
+
+
 
 export default class About extends Component {
     render() {
@@ -14,10 +21,9 @@ export default class About extends Component {
                 <br/> I'm into video games, food, technology, and I loved speeding on the highway 
                  but these tickets are not fun so my speeding days are over. 
                  <br/>Check out my highlights for some videos games in the highlights section!
-                 <br/>If you would like to my resume, download it below 😁
+                 <br/>If you would like to see my resume, download it below 😁
                     <p>-AM</p>
-
-                    <small>resume here</small>
+                    <a href={myfile} download="myfile.pdf"> My Resume </a>
 
                     
                      
