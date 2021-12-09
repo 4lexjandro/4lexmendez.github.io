@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Alex from './gallery/Alex.jpg';
-import { useSpring, animated, useTransition } from 'react-spring';
 
 
 

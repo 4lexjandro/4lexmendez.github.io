@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import myfile from './myfile.pdf';
+
+import myfile from './gallery/myfile.pdf';
 
 
 
@@ -23,6 +24,7 @@ export default class About extends Component {
                  <br/>Check out my highlights for some videos games in the highlights section!
                  <br/>If you would like to see my resume, download it below 😁
                     <p>-AM</p>
+
                     <a href={myfile} download="myfile.pdf"> My Resume </a>
 
                     

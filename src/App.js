@@ -16,7 +16,7 @@ function App() {
   const style2 = useSpring({
   from: { marginLeft: 0},
   to: { marginLeft: 900 },
-  delay: 1500,
+  delay: 1600,
   config: { duration: 3000 }
 })
 
