@@ -28,7 +28,7 @@ function App() {
         <div className="topDiv">
         <small> <NavbarComp /> </small>
           <animated.div style={style2}>
-            <h1>Welcome</h1>
+            <h1>Welcome to my page!</h1>
             </animated.div>
         </div>
        </animated.div>
