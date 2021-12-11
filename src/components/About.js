@@ -8,6 +8,7 @@ import myfile from './gallery/myfile.pdf';
 
 
 
+
 export default class About extends Component {
     render() {
         return (
@@ -27,7 +28,7 @@ export default class About extends Component {
 
                     <a href={myfile} download="myfile.pdf"> My Resume </a>
 
-                    
+            
                      
                 </p>
             </div>

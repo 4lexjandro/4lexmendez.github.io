@@ -51,7 +51,7 @@ export default class NavbarComp extends Component {
         <Nav.Link as={Link} to={"/about"}>About</Nav.Link>
         <Nav.Link as={Link} to={"/contact"}>Contact</Nav.Link>
         <Nav.Link as={Link} to={"/projects"}>Projects</Nav.Link>
-        <Nav.Link as={Link} to={"/highlights"}>Highlights</Nav.Link>
+        <Nav.Link as={Link} to={"/highlights"}>Game Highlights</Nav.Link>
         
       </Nav>
     </Navbar.Collapse>
