@@ -33,6 +33,8 @@ const Highlights = () => {
     return (
         <div className="App">
             <h1>Game Highlights</h1>
+
+            <h5>X-Ray Vision</h5>
             <VideoPlayer src={videoSrc} 
             poster={poster} 
             width="520" height="420" />
