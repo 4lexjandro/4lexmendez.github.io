@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavbarComp from './components/NavbarComp';
 import { useSpring, animated} from 'react-spring';
 import './App.css';
+import About from './components/About';
+import Empty from './components/Empty';
 
 
 function App() {
@@ -31,8 +33,7 @@ function App() {
             <h5>Welcome to my page!</h5>
             </animated.div>
         </div>
-       </animated.div>
-                         
+       </animated.div>   
     </div>
 
   );
