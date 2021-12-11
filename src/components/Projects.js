@@ -5,12 +5,6 @@ import favLinks from './gallery/favLinks.jpg';
 import house from './gallery/house.jpg';
 
 
-
-
-
-
-
-
 export default class Projects extends Component {
     render() {
         return (
@@ -28,7 +22,7 @@ export default class Projects extends Component {
                <img src={calc} alt="calc image" height={250} width={350}/>
                <h4>Drag & Drop</h4>
                <small>Here is a grey pad that was a collaboration with genius classmates where the user
-                   is able to drag and drop colors onto the 4 squares to change their color. Eventually,
+                   is able to drag and drop colors onto the 4 squares to change their color once you cllick the edit button. Eventually,
                    <br/> I'll attempt to force the colors to change colors and rotate on their own with a timer.
                </small>
                <br/>
