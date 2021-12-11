@@ -4,7 +4,7 @@ import NavbarComp from './components/NavbarComp';
 import { useSpring, animated} from 'react-spring';
 import './App.css';
 import About from './components/About';
-import Empty from './components/Empty';
+
 
 
 function App() {
