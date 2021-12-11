@@ -76,6 +76,9 @@ export default class NavbarComp extends Component {
           <Route path="/projects">
             <Projects />
           </Route>
+          <Route path="/">
+            <Home />
+          </Route>
         </Switch>
 
             </div>
