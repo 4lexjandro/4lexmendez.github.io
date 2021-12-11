@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import calc from './gallery/calc.jpg';
 import designPad from './gallery/designPad.jpg';
 import favLinks from './gallery/favLinks.jpg';
+import house from './gallery/house.jpg';
 
 
 
@@ -36,11 +37,22 @@ export default class Projects extends Component {
                <img src={designPad} alt="designPad image" height={250} width={350}/>
                <br/>
                <h4>Favorite Links</h4>
-               <br/>
                <small>This is a minor project where the user is able to add and delete links. The gist of it was to understand props</small>
+               <br/>
+               <a href="https://github.com/4lexmendez/favoriteLinks">Check it out !</a>
+               <br/>
                <img src={favLinks} alt="favLinks image" height={250} width={350}/>
-               
-               <small></small>
+               <br/>
+            <h4>Real Estate website</h4>
+            <small>This is a project that I created but not on my own at all. There was a udemy course teaching Django and python fundamentals.
+                <br/> it uses postgres as a database and functions except for one page. This is an old project that I have not gotten the chance
+                <br/> to deploy or complete but  will once this semester is done.
+            </small>
+               <br/>
+               <a href="https://github.com/4lexmendez/RealEstate">Check it out !</a>
+               <br/>
+               <img src={house} alt="house image" height={250} width={350}/>
+               <br/>
 
 
 
