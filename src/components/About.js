@@ -13,7 +13,7 @@ export default class About extends Component {
     render() {
         return (
             <div>
-                <h2>About</h2>
+                <h1>About</h1>
                 <p> Hello, my name is Alexjandro Mendoza and I'm currently a student pursuing a bachelors degree in Computer Science. 
                 <br/>I have a passion for investing and would like to take my earnings from
                  my career job to spend on rental properties. 
