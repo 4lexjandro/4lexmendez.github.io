@@ -52,6 +52,12 @@
   font-size: medium;
 }
 
+.boxLeft
+{
+  display: inline-block;
+  background-color: blue;
+}
+
 
 /*.div2{
   width:200px;
