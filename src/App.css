@@ -54,7 +54,7 @@
 
 .boxLeft
 {
-  display: inline-block;
+  float:right;
   background-color: blue;
 }
 

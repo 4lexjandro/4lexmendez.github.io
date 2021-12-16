@@ -47,14 +47,29 @@ const Login = () => {
   )
 }
 
+
+
+
 const Dashboard = () => {
+  const Auth = React.useContext(AuthApi)
+
+  const handleOnClick = ()=>{
+    Auth.setAuth(false);
+    Cookies.remove("user");
+
+  }
   return(
     <div>
       <h1>Dashboard</h1>
-      <button>Logout</button>
+      <button onClick={handleOnClick}>Logout</button>
     </div>
   )
 }
+
+
+
+
+
 
 const Routes = () =>{
   const Auth = React.useContext(AuthApi)
@@ -141,8 +156,8 @@ return (
            </Router>
          </AuthApi.Provider>
        </div>
-       <Login/>
-       <Dashboard/>
+       
+       
        
     </div>
    
