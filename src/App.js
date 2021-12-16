@@ -122,12 +122,6 @@ React.useEffect(() => {
     
 
 
-
-
-
-
-
-  
 return (
 <div className="App">
       <animated.div style={style1}>
@@ -149,12 +143,6 @@ return (
              <Routes/>
            </Router>
          </AuthApi.Provider>
-         
-         
-         
-        
-         
-         
          
        </div>
        
