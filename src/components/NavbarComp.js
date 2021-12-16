@@ -53,6 +53,8 @@ export default class NavbarComp extends Component {
         <Nav.Link as={Link} to={"/projects"}>Projects</Nav.Link>
         <Nav.Link as={Link} to={"/highlights"}>Game Highlights</Nav.Link>
         
+        
+        
       </Nav>
     </Navbar.Collapse>
   </>
@@ -77,8 +79,9 @@ export default class NavbarComp extends Component {
             <Projects />
           </Route>
           <Route path="/">
-            <Home />
+            <Home/>
           </Route>
+          
         </Switch>
 
             </div>

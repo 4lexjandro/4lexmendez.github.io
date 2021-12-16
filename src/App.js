@@ -9,11 +9,9 @@ import {
   Route,
   Redirect,
   Link
-
 } from "react-router-dom";
 import Cookies from 'js-cookie'
-import AuthApi from "./AuthApi";
-
+import AuthApi from "./components/AuthApi";
 
 function App() {
 
@@ -31,32 +29,32 @@ function App() {
 })
 
 
+
+
 const Login = () => {
 
   const Auth = React.useContext(AuthApi)
   const handleOnClick = () =>{
-    Auth.setAuth(true);
-    Cookies.set("user","loginTrue")
-
+  Auth.setAuth(true);
+  Cookies.set("user","loginTrue")
   }
   return(
     <div>
-      <h1>You're logged in!</h1>
+     
+      
+      <h1>Log in here</h1>
       <button onClick={handleOnClick}>Login</button>
+      
     </div>
   )
 }
 
 
-
-
 const Dashboard = () => {
-  const Auth = React.useContext(AuthApi)
-
-  const handleOnClick = ()=>{
+const Auth = React.useContext(AuthApi)
+const handleOnClick = ()=>{
     Auth.setAuth(false);
     Cookies.remove("user");
-
   }
   return(
     <div>
@@ -65,10 +63,6 @@ const Dashboard = () => {
     </div>
   )
 }
-
-
-
-
 
 
 const Routes = () =>{
@@ -155,6 +149,13 @@ return (
              <Routes/>
            </Router>
          </AuthApi.Provider>
+         
+         
+         
+        
+         
+         
+         
        </div>
        
        
