@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/4lexmendez.github.io/static/css/main.5c223f47.chunk.css",
+    "main.js": "/4lexmendez.github.io/static/js/main.b74552f0.chunk.js",
+    "main.js.map": "/4lexmendez.github.io/static/js/main.b74552f0.chunk.js.map",
+    "runtime-main.js": "/4lexmendez.github.io/static/js/runtime-main.978b45af.js",
+    "runtime-main.js.map": "/4lexmendez.github.io/static/js/runtime-main.978b45af.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/4lexmendez.github.io/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.8a0f3ddb.chunk.js": "/4lexmendez.github.io/static/js/2.8a0f3ddb.chunk.js",
+    "static/js/2.8a0f3ddb.chunk.js.map": "/4lexmendez.github.io/static/js/2.8a0f3ddb.chunk.js.map",
+    "static/js/3.ecdef6aa.chunk.js": "/4lexmendez.github.io/static/js/3.ecdef6aa.chunk.js",
+    "static/js/3.ecdef6aa.chunk.js.map": "/4lexmendez.github.io/static/js/3.ecdef6aa.chunk.js.map",
+    "index.html": "/4lexmendez.github.io/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/4lexmendez.github.io/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.5c223f47.chunk.css.map": "/4lexmendez.github.io/static/css/main.5c223f47.chunk.css.map",
+    "static/js/2.8a0f3ddb.chunk.js.LICENSE.txt": "/4lexmendez.github.io/static/js/2.8a0f3ddb.chunk.js.LICENSE.txt",
+    "static/media/Alex.42aa380e.jpg": "/4lexmendez.github.io/static/media/Alex.42aa380e.jpg",
+    "static/media/calc.fe6dfa83.jpg": "/4lexmendez.github.io/static/media/calc.fe6dfa83.jpg",
+    "static/media/designPad.5e634025.jpg": "/4lexmendez.github.io/static/media/designPad.5e634025.jpg",
+    "static/media/dj.b84e37ab.mp4": "/4lexmendez.github.io/static/media/dj.b84e37ab.mp4",
+    "static/media/favLinks.ad923abe.jpg": "/4lexmendez.github.io/static/media/favLinks.ad923abe.jpg",
+    "static/media/grenade.3b670a35.mp4": "/4lexmendez.github.io/static/media/grenade.3b670a35.mp4",
+    "static/media/house.2ddad3cd.jpg": "/4lexmendez.github.io/static/media/house.2ddad3cd.jpg",
+    "static/media/myfile.f967a4ca.pdf": "/4lexmendez.github.io/static/media/myfile.f967a4ca.pdf",
+    "static/media/ns.a4dc2e6f.mp4": "/4lexmendez.github.io/static/media/ns.a4dc2e6f.mp4",
+    "static/media/over.5c46b5ca.mp4": "/4lexmendez.github.io/static/media/over.5c46b5ca.mp4",
+    "static/media/sniper.46220d28.mp4": "/4lexmendez.github.io/static/media/sniper.46220d28.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.978b45af.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.8a0f3ddb.chunk.js",
+    "static/css/main.5c223f47.chunk.css",
+    "static/js/main.b74552f0.chunk.js"
+  ]
+}
